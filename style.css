@@ -21,7 +21,6 @@
     height: 100%;
 
     display: flex;
-    position: absolute;
     flex-direction: column;
     justify-content: center;
     margin-left: 80px;
@@ -168,11 +167,8 @@ input::placeholder {
 
 @media screen and (max-width: 600px){
 
-.login{
-    display: none;
-    /*flex-direction: column;
-    justify-content: flex-start;*/
-    
+.wrapper{
+    flex-direction: column;
 }
 
 
