@@ -11,7 +11,8 @@
 .wrapper{
     display: flex;
     flex-direction: row;
-    margin-right: 200px;
+    margin-right: 150px;
+    
     
 }
 
@@ -90,7 +91,7 @@ h1{
 
   }
 .right_wrapper{
-    width: 500px;
+    width: 50%;
     height: 100%;
     text-align: center;
     align-items: center;
@@ -106,7 +107,7 @@ h1{
     
 }
 .form{
-    margin:200px;
+   
 
 }
 h2 {
@@ -168,9 +169,11 @@ input::placeholder {
 @media screen and (max-width: 600px){
 
 .login{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: none;
+    /*flex-direction: column;
+    justify-content: flex-start;*/
+    
 }
+
 
 }
