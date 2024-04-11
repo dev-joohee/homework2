@@ -11,7 +11,11 @@
 .wrapper{
     display: flex;
     flex-direction: row;
-    margin-right: 150px;
+    justify-content: space-between;
+    /*margin-right: 150px;*/
+    width: 70%;
+    margin: auto;
+    
     
     
 }
@@ -23,7 +27,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
+    margin-top: 10%;
 
 
 }
@@ -35,8 +40,7 @@
 img{
     width: 180px;
     height:auto;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
 
 .desc{
   height: 20%;
@@ -60,7 +64,7 @@ h1{
     justify-content: center;
   }
 .track_wrapper{
-  width: 100%;
+  width: 33%;
   height: 20%;
   display: flex;
   flex-direction: row;
@@ -71,7 +75,7 @@ h1{
 }
 
 
-.track{
+/*.track{
     width: 30%;
     height: 100%;
     background-color: white;
@@ -89,8 +93,30 @@ h1{
     
 
   }
+  .track div {
+    background-color: white;
+    color: black;
+
+}*/
+.track{
+background-color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+color:black;
+    width: 420px;
+    height: 150px;
+    float: left;
+
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 3px;
+    border:0;
+}
 .right_wrapper{
-    width: 50%;
+    /*width: 50%;*/
     height: 100%;
     text-align: center;
     align-items: center;
@@ -99,16 +125,13 @@ h1{
     
   }
 .login{
-    margin-left: 180%;
+    /*margin-left: 180%;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     
 }
-.form{
-   
 
-}
 h2 {
     font-style: italic;
     font-weight: bold;
@@ -169,7 +192,8 @@ input::placeholder {
 
 .wrapper{
     flex-direction: column;
+
 }
 
 
-}
+} 
